@@ -1,4 +1,6 @@
-import React, {FunctionComponent,useState, useEffect} from 'react';
+import React, {FunctionComponent} from 'react';
+import Footer from './composants/footer/Footer';
+import Header from './composants/header/Header';
 
 const App: FunctionComponent = () => {
 
@@ -6,7 +8,9 @@ const App: FunctionComponent = () => {
 
        return ( 
              <div>
-                <h1> Bonjour le monde !!!</h1>
+                <Header/>
+                    <h1> Bonjour le monde !!!</h1>
+                 <Footer /> 
               </div>
          );
 }
