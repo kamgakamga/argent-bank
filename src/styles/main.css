@@ -5,7 +5,7 @@ html {
         text-align: center;
         color: #2c3e50;
       }
-      
+  
       body {
         margin: 0;
         display: flex;
@@ -40,6 +40,7 @@ html {
         justify-content: space-between;
         align-items: center;
         padding: 5px 20px;
+        background-color: #f9f8fb;
       }
       
       .main-nav a {
