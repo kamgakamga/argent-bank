@@ -12,7 +12,7 @@ const Header: FunctionComponent = () => {
         <a className="main-nav-logo" href="./index.html">
           <img
             className="main-nav-logo-image"
-            src="./../header/composants/assets/img/argentBankLogo.png"
+            src="./assets/img/argentBankLogo.png"
             alt="Argent Bank Logo"
           />
           <h1 className="sr-only">Argent Bank</h1>
