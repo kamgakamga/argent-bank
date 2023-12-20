@@ -7,7 +7,6 @@ const Header: FunctionComponent = () => {
   //const name: String = 'React';
 
   return (
-    <div>
       <nav className="main-nav">
         <a className="main-nav-logo" href="./index.html">
           <img
@@ -24,7 +23,6 @@ const Header: FunctionComponent = () => {
           </a>
         </div>
       </nav>
-    </div>
   );
 }
 
